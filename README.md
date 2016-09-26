@@ -1,7 +1,8 @@
 **Cloth Simulation**
 ================
-by Robert Poncelet
-Source code available at https://github.com/NCCA/RobertPoncelet-OOPG/
+A simple CPU-based cloth simulation I created using NGL as part of university coursework. Please note that this requires NGL (available [here](https://github.com/NCCA/NGL)) to be installed in your home directory on Linux, and "$HOME/NGL/lib" to be added to your LD_LIBRARY_PATH environment variable if running the program outside of Qt Creator.
+
+The following is copied from my coursework submission:
 
 ----------
 
@@ -9,6 +10,8 @@ Summary
 -------
 
 This program aims to give a visually plausible simulation of a hanging sheet of cloth using Verlet integration and provide a UI to the user for experimenting with different settings and variables of the simulation. The main window of the program is divided into a viewport where the simulation is displayed and a UI column where the simulation variables and settings can be changed.
+
+![Preview](preview.png)
 
 ----------
 
